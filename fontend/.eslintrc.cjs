@@ -17,6 +17,10 @@ module.exports = {
       "warn",
       { allowConstantExport: true },
     ],
-    "no-unused-vars": "off",
+    "no-unused-vars": "off", 
+    "react/prop-types": "off" // cách tương tự giúp truyền props không bị lỗi
   },
+  react: {
+    props: true, // giúp truyền props không bị lỗi
+  }, 
 };
